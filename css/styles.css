@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500;700&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #FAFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFF;
+    width: 380px;
+    min-height: 250px;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.card-head {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('/images/cactus_img.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.badge {
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    text-align: center;
+    font-size: 0.625rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #20293A;
+}
+
+.card-description {
+    font-size: 0.875rem;
+    font-weight: 200;
+    line-height: 1.5;
+    max-width: 95%;
+    color: #6C727F;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    margin: 10px 0;
+}
+
+.card-footer-description {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #6C727F;
+    padding-top: 10px;
+}
+
+hr {
+    width: 380px;
+    margin-left: -16px;
+    border-color: #e6e8ec79;
+}
